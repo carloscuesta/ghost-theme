@@ -5,9 +5,9 @@
 
 <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}}">
 
-	<header itemprop="image" itemscope itemtype="https://schema.org/ImageObject" class="main-header post-head{{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-		{{#if image}}
-		<meta itemprop="url" content="{{image}}">
+	<header itemprop="image" itemscope itemtype="https://schema.org/ImageObject" class="main-header post-head{{#if image}}" style="background-image: url({{img_url feature_image}}){{else}}no-cover{{/if}}">
+		{{#if feature_image}}
+		<meta itemprop="url" content="{{img_url feature_image}}">
 		<meta itemprop="width" content="3000">
 		<meta itemprop="height" content="1350">
 		{{/if}}

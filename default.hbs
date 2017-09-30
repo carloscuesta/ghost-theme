@@ -20,9 +20,9 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{meta_title}}" />
 	<meta property="og:description" content="{{meta_description}}"/>
-	{{#post}}{{#if image}}
-	<meta property="og:image" content="{{image}}" />
-   	<meta name="twitter:image:src" content="{{image}}" />
+	{{#post}}{{#if feature_image}}
+	<meta property="og:image" content="{{img_url feature_image}}" />
+   	<meta name="twitter:image:src" content="{{img_url feature_image}}" />
 	{{/if}}{{/post}}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="{{meta_description}}" />
