@@ -1,4 +1,15 @@
 {
-  "name": "Carlos Cuesta",
-  "version": "1.0"
+  "name": "carloscuesta",
+  "version": "2.0.0",
+  "author": {
+    "name": "Carlos Cuesta",
+    "email": "hi@carloscuesta.me",
+    "url": "https://carloscuesta.me"
+  },
+  "engines": {
+    "ghost": "^1.0.0"
+  },
+  "config": {
+    "posts_per_page": 4
+  }
 }
