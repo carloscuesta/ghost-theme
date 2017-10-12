@@ -1253,3 +1253,7 @@ input#hamburger-menu {
 .article-card p, .article-card h1, .article-card h2, .article-card h3, .article-card h4, .article-card h5, .article-card h6{
 	width: 100%;
 }
+
+.kg-card-markdown {
+    width: 100%;
+}
