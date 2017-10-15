@@ -57,7 +57,7 @@
 </div>
 <aside class="read-next">
     {{#next_post}}
-    <a rel="next" class="read-next-story next center-xs" href="{{url}}" onmousedown="ga('send', 'event', 'Blog', 'Post - Read Next');">
+    <a rel="next" class="read-next-story next center-xs" href="{{url}}" onmousedown="ga('send', 'event', 'Blog', 'Post - Read Next');" {{#if feature_image}}" style="background: url({{img_url feature_image}});{{/if}}">
         <section class="post">
             <h2>{{title}}</h2>
             <p>{{excerpt words="19"}}&hellip;</p>
@@ -65,7 +65,7 @@
     </a>
     {{/next_post}}
     {{#prev_post}}
-    <a rel="prev" class="read-next-story prev center-xs" href="{{url}}" onmousedown="ga('send', 'event', 'Blog', 'Post - Read Previous');">
+    <a rel="prev" class="read-next-story prev center-xs" href="{{url}}" onmousedown="ga('send', 'event', 'Blog', 'Post - Read Previous');" {{#if feature_image}}" style="background: url({{img_url feature_image}});{{/if}}">
         <section class="post">
             <h2>{{title}}</h2>
             <p>{{excerpt words="19"}}&hellip;</p>
