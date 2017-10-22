@@ -214,7 +214,7 @@ header {
 }
 
 .tag-head.personal{
-	background-color: #FF4081;
+	background-color: #263238;
 }
 
 .tag-head.life {
@@ -229,14 +229,6 @@ header {
 	background-color: #00E676;
 }
 
-.tag-head.html {
-	background-color: #FF5722;
-}
-
-.tag-head.css {
-	background-color: #42A5F5;
-}
-
 .tag-head.npm {
 	background-color: #E53935;
 }
@@ -247,6 +239,10 @@ header {
 
 .tag-head.react {
 	background-color: #00D8FF;
+}
+
+.tag-head.conferences {
+    background-color: #FF4081;
 }
 
 .hidden {
@@ -325,11 +321,10 @@ article .read-more {
 
 .tags .tools{color:#3367D6}.tags .tools:before{background-color:#3367D6}
 .tags .npm{color:#E53935}.tags .npm:before{background-color:#E53935}
-.tags .html{color:#FF5722}.tags .html:before{background-color:#FF5722}
-.tags .css{color:#42A5F5}.tags .css:before{background-color:#42A5F5}
 .tags .javascript{color:#FBDD51}.tags .javascript:before{background-color:#FBDD51}
 .tags .nodejs{color:#00E676}.tags .nodejs:before{background-color:#00E676}
-.tags .personal{color:#FF4081;}.tags .personal:before{background-color:#FF4081;}
+.tags .personal{color:#263238;}.tags .personal:before{background-color:#263238;}
+.tags .conferences{color:#FF4081;}.tags .conferences:before{background-color:#FF4081;}
 .tags .life{color:#4CAF50}.tags .life:before{background-color:#4CAF50}
 .tags .react{color:#00D8FF}.tags .react:before{background-color:#00D8FF}
 
