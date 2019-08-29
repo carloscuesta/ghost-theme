@@ -21,17 +21,17 @@
 	    				</span>
 			        	<span itemprop="author" itemscope itemtype="http://schema.org/Person" class="author">
 			        		<span itemprop="name">
-			        			{{#author}}<a href="{{url}}" onmousedown="ga('send', 'event', 'Blog', 'Click', 'Author - {{name}}');">{{name}}</a>{{/author}}
+			        			{{#primary_author}}<a href="{{url}}" onmousedown="ga('send', 'event', 'Blog', 'Click', 'Author - {{name}}');">{{name}}</a>{{/primary_author}}
 			        		</span>
 			        	</span>
 			        </div>
 			        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 						<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-							<meta itemprop="url" content="{{author.profile_image}}">
+							<meta itemprop="url" content="{{primary_author.profile_image}}">
 							<meta itemprop="width" content="450">
 							<meta itemprop="height" content="450">
 						</div>
-						<meta itemprop="name" content="{{author.name}}">
+						<meta itemprop="name" content="{{primary_author.name}}">
 					</div>
 				    <section itemprop="description">
 				        <p class="post-excerpt">{{excerpt words="30"}} ...</p>

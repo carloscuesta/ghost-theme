@@ -1,13 +1,14 @@
 {
-  "name": "carloscuesta",
-  "version": "2.1.0",
+  "name": "carloscuesta-ghost-theme",
+  "version": "3.0.0",
+  "keywords": ["ghost-theme"],
   "author": {
     "name": "Carlos Cuesta",
     "email": "hi@carloscuesta.me",
     "url": "https://carloscuesta.me"
   },
   "engines": {
-    "ghost": "^1.0.0"
+    "ghost": "^2.0.0"
   },
   "config": {
     "posts_per_page": 4
