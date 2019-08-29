@@ -1249,6 +1249,9 @@ input#hamburger-menu {
 	width: 100%;
 }
 
-.kg-card-markdown {
-    width: 100%;
+.kg-width-wide, .kg-width-full {
+  width: 100%;
 }
+
+/* @FIXME: We should add styles for this */
+.kg-gallery-container, .kg-gallery-row, .kg-gallery-image {}
