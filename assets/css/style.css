@@ -1223,7 +1223,12 @@ input#hamburger-menu {
 		display: block;
 	}
 
-	article footer.post-meta , .post-meta{
+  .post-meta {
+    display: block;
+    padding: 0;
+  }
+
+	article footer.post-meta {
 		display: none!important;
 	}
 
